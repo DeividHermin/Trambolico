@@ -227,7 +227,7 @@ public class Concierculo implements Screen {
 
 
         if (Gdx.input.isTouched()) {
-            if (TimeUtils.nanoTime() - lastTouched >  140000000){
+            if (TimeUtils.nanoTime() - lastTouched >  180000000){
                 lastTouched = TimeUtils.nanoTime();
                 Vector3 touchPos3 = new Vector3();
                 touchPos3.set(Gdx.input.getX(), Gdx.input.getY(), 0);
